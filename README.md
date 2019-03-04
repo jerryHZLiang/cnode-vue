@@ -33,6 +33,8 @@ cd cnode-vue
 // 安装项目所需依赖
 npm install
 
+//安装 axios 和 jQuery
+npm install --save axios jquery
 // 调试
 npm run dev
 

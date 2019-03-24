@@ -89,11 +89,13 @@
 
 <style >
   @import url('../assets/markdown-github.css');
+
+  .{margin:0; padding:0;box-sizing:border-box;}
   .topbar {
     padding: 10px;
     background-color: #f6f6f6;
-    height: 16px;
-    font-size: 12px;
+    line-height:16px;
+    font-size: 16px;
     margin-top: 10px;
   }
 
@@ -107,7 +109,7 @@
   }
 
   #reply {
-    margin-top: 15px;
+    margin: 1px;
   }
 
   #reply img {
@@ -124,7 +126,7 @@
   }
   .replySec{
     border-bottom:1px solid #e5e5e5;
-    padding:0 10px;
+    padding:10px;
   }
 
   .loading {
@@ -135,6 +137,13 @@
   .replyUp a:nth-of-type(2) {
     margin-left: 0px;
     display: inline-block;
+  }
+
+  .replyUp{
+    padding-bottom: 10px;
+  }
+  .replyUp p{
+    margin:10px 0;
   }
 
   .topic_header {
@@ -161,11 +170,21 @@
 
   .topic_content {
     border-top: 1px solid #e5e5e5;
-    padding: 0 10px;
+    padding: 10px;
   }
-
+  .markdown-text p{
+    padding: 10px;
+  }
   .markdown-text img {
     width: 92% !important;
   }
-</style>
+  .markdown-text pre{
+    overflow:auto;
+  }
 
+.markdown-text code {
+  white-space: pre-wrap;
+  border-radius: 2px;
+  display: inline;
+}
+</style>

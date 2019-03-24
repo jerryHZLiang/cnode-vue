@@ -87,7 +87,7 @@
   }
 </script>
 
-<style >
+<style scoped>
   @import url('../assets/markdown-github.css');
 
   .{margin:0; padding:0;box-sizing:border-box;}
